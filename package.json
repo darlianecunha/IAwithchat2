@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "engines": { "node": "18.x" },
+  "engines": { "node": "22.x" },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,7 +14,7 @@
     "react-dom": "^19.2.0",
     "@google/genai": "^1.29.0",
     "@google/generative-ai": "^0.21.0",
-    "@vercel/node": "^3.0.0",
+    "@vercel/node": "^4.0.0",
     "busboy": "^1.6.0"
   },
   "devDependencies": {
