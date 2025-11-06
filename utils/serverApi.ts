@@ -1,9 +1,9 @@
-// Helper functions to call serverless routes (no API key in browser)
+// Calls to serverless routes (Vercel). Keep secrets on server.
 export async function chat(prompt: string) {
   const res = await fetch("/api/chat", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ prompt })
+    body: JSON.stringify({ prompt }),
   });
   return res.json();
 }
