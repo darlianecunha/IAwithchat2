@@ -1,0 +1,8 @@
+
+{
+  "name": "AI Media Studio",
+  "description": "An application to edit images with text prompts, resize them for social media, and have real-time voice conversations with an AI, powered by Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
